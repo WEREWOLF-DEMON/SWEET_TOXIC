@@ -1,23 +1,23 @@
 import asyncio, os, time, aiohttp
 import aiohttp
 from pyrogram import filters
-from SWEET_TOXIC_DEVILhub import SWEET_TOXIC_DEVILhub as papaSWEET_TOXIC_DEVIL
-from SWEET_TOXIC_MUSIC import app
+from daxxhub import daxxhub as paparitik
+from EsproMusic import app
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 ###
-@app.on_message(filters.command("SWEET_TOXIC_DEVILhub"))
+@app.on_message(filters.command("daxxhub"))
 async def daxxhub(_, message):
-    text = message.text[len("/SWEET_TOXIC_DEVILhub") :]
-    papadaxx(f"{text}").save(f"SWEET_TOXIC_DEVILhub_{message.from_user.id}.png")
-    await message.reply_photo(f"SWEET_TOXIC_DEVILhub_{message.from_user.id}.png")
-    os.remove(f"SWEET_TOXIC_DEVILhub_{message.from_user.id}.png")
+    text = message.text[len("/daxxhub") :]
+    paparitik(f"{text}").save(f"daxxhub_{message.from_user.id}.png")
+    await message.reply_photo(f"daxxhub_{message.from_user.id}.png")
+    os.remove(f"ritikhub_{message.from_user.id}.png")
 ####
 
 @app.on_message(filters.command(["github", "git"]))
 async def github(_, message):
     if len(message.command) != 2:
-        await message.reply_text("/git SWEET_TOXIC_DEVILTEAM")
+        await message.reply_text("/git SWEET-TOXIC-DEVIL")
         return
 
     username = message.text.split(None, 1)[1]
