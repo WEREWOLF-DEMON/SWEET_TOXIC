@@ -2,7 +2,7 @@ import asyncio, os, time, aiohttp
 import aiohttp
 from pyrogram import filters
 from daxxhub import daxxhub as paparitik
-from EsproMusic import app
+from SWEET_TOXIC_MUSIC import app
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 ###
