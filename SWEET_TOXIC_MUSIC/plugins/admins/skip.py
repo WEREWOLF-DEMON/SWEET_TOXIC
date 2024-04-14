@@ -3,7 +3,7 @@ from pyrogram.types import InlineKeyboardMarkup, Message
 
 import config
 from SWEET_TOXIC_MUSIC import YouTube, app
-from SWEET_TOXIC_MUSIC.core.call import SWEET_TOXIC_MUSIC
+from SWEET_TOXIC_MUSIC.core.call import SWEET_TOXIC_DEVIL
 from SWEET_TOXIC_MUSIC.misc import db
 from SWEET_TOXIC_MUSIC.utils.database import get_loop
 from SWEET_TOXIC_MUSIC.utils.decorators import AdminRightsCheck
