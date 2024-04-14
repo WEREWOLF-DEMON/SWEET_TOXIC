@@ -39,7 +39,7 @@ async def post(url: str, *args, **kwargs):
         return data
 
 
-async def DAXXBin(text):
+async def SWEET_TOXIC_DEV8LBin(text):
     resp = await post(f"{BASE}api/v2/paste", data=text)
     if not resp["success"]:
         return
