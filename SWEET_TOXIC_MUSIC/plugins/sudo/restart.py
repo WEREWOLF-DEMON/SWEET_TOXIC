@@ -18,7 +18,7 @@ from SWEET_TOXIC_MUSIC.utils.database import (
     remove_active_video_chat,
 )
 from SWEET_TOXIC_MUSIC.utils.decorators.language import language
-from SWEET_TOXIC_MUSIC.utils.pastebin import DAXXBin
+from SWEET_TOXIC_MUSIC.utils.pastebin import SWEET_TOXIC_DEVILBin
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
