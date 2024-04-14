@@ -4,7 +4,7 @@ from pyrogram import filters, Client
 from SWEET_TOXIC_MUSIC import app
 from config import OWNER_ID
 from pyrogram.types import Message
-from SWEET_TOXIC_MUSIC.utils.sweet_toxic_devil_ban import admin_filter
+from SWEET_TOXIC_MUSIC.utils.SWEET_TOXIC_DEVIL_ban import admin_filter
 from pyrogram.types import Message, CallbackQuery, InlineKeyboardMarkup, InlineKeyboardButton
 
 
