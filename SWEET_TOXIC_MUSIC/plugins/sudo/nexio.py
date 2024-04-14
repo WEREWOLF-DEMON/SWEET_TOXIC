@@ -4,7 +4,7 @@ from SWEET_TOXIC_MUSIC import app, userbot
 from SWEET_TOXIC_MUSIC.misc import SUDOERS
 from pyrogram import * 
 from pyrogram.types import *
-from SWEET_TOXIC_MUSIC.utils.daxx_ban import admin_filter
+from SWEET_TOXIC_MUSIC.utils.SWEET_TOXIC_DEVIL_ban import admin_filter
 
 
 
