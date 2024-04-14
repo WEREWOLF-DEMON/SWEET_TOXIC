@@ -25,7 +25,7 @@ SOFTWARE.***
 import requests
 from pyrogram import Client
 from pyrogram import filters
-from DAXXMUSIC import app
+from SWEET_TOXIC_MUSIC import app
 
 
 random_user_api_url = 'https://randomuser.me/api/'
